@@ -178,16 +178,10 @@ body {
         border-top-left-radius: 4px;
         border-top-right-radius: 4px;
         border-bottom: none; }
-        .results-body-left-header .choose {
-          margin: 2.2rem 0;
-          font-size: 1.6rem;
-          color: #878590; }
-          .results-body-left-header .choose .divider {
-            color: #1a173b;
-            font-weight: 700; }
-          .results-body-left-header .choose a {
-            font-weight: 700;
-            color: #1a173b; }
+        .results-body-left-header h3 {
+          font-size: 1.9rem;
+          font-weight: 700;
+          columns: #1a173b; }
         .results-body-left-header .share {
           white-space: nowrap;
           font-size: 1.4rem; }
@@ -261,6 +255,7 @@ body {
               font-size: 1.7rem; }
             .results-body-right-top .graph-card-header .choose, .results-body-right-bottom .graph-card-header .choose {
               margin: 2.2rem 0;
+              margin-top: -.5rem;
               font-size: 1.6rem;
               color: #878590; }
               .results-body-right-top .graph-card-header .choose .divider, .results-body-right-bottom .graph-card-header .choose .divider {
