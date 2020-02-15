@@ -163,7 +163,8 @@ body {
       padding-right: .75%; }
     .results-body-left {
       width: 50%;
-      height: 100%; }
+      height: 100%;
+      min-height: 60rem; }
       .results-body-left-header {
         display: flex;
         height: 8.3rem;
@@ -178,11 +179,13 @@ body {
         border-top-right-radius: 4px;
         border-bottom: none; }
         .results-body-left-header .choose {
-          font-size: 1.9rem;
-          margin-bottom: 0; }
+          margin: 2.2rem 0;
+          font-size: 1.6rem;
+          color: #878590; }
+          .results-body-left-header .choose .divider {
+            color: #1a173b;
+            font-weight: 700; }
           .results-body-left-header .choose a {
-            color: #878590; }
-          .results-body-left-header .choose .active a {
             font-weight: 700;
             color: #1a173b; }
         .results-body-left-header .share {
@@ -200,7 +203,7 @@ body {
         height: 100%;
         max-height: calc(100% - 8.3rem); }
         .results-body-left-body .list-group-flush {
-          height: 100%;
+          max-height: 100%;
           border: 1.5px solid #EAEBEE;
           border-bottom-left-radius: 4px;
           border-bottom-right-radius: 4px;
@@ -256,12 +259,17 @@ body {
                 font-weight: 700; }
             .results-body-right-top .graph-card-header a, .results-body-right-bottom .graph-card-header a {
               font-size: 1.7rem; }
-            .results-body-right-top .graph-card-header .choose a, .results-body-right-bottom .graph-card-header .choose a {
-              color: #878590;
-              font-size: 1.6rem; }
-            .results-body-right-top .graph-card-header .choose .active a, .results-body-right-bottom .graph-card-header .choose .active a {
-              font-weight: 700;
-              color: #1a173b; }
+            .results-body-right-top .graph-card-header .choose, .results-body-right-bottom .graph-card-header .choose {
+              margin: 2.2rem 0;
+              font-size: 1.6rem;
+              color: #878590; }
+              .results-body-right-top .graph-card-header .choose .divider, .results-body-right-bottom .graph-card-header .choose .divider {
+                color: #1a173b;
+                font-weight: 700; }
+              .results-body-right-top .graph-card-header .choose a, .results-body-right-bottom .graph-card-header .choose a {
+                font-size: 1.6rem;
+                font-weight: 700;
+                color: #1a173b; }
           .results-body-right-top .graph-card-body, .results-body-right-bottom .graph-card-body {
             display: flex;
             justify-content: space-between;
